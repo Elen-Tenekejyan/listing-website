@@ -1,0 +1,500 @@
+{
+    "title": {
+        "en": "example",
+        "ru": "пример",
+        "am": "օրինակ"
+    },
+    "Home": {
+        "en": "home",
+        "ru": "главная",
+        "am": "գլխավոր"
+    },
+    "Category": {
+        "en": "category",
+        "ru": "категория",
+        "am": "Կատեգորիա"
+    },
+    "Listing": {
+        "en": "listing",
+        "ru": "список",
+        "am": "ցանկ"
+    },
+    "Contact_Us": {
+        "en": "contact Us",
+        "ru": "свяжитесь с нами",
+        "am": "կապվեք մեզ հետ"
+    },
+    "contactSublTitle":{
+        "en": "Keep in touch with us",
+        "ru": "Оставайтесь с нами на связи ",
+        "am": "Մնացեք մեզ հետ կապի մեջ"
+    },
+    "contactMainTitle":{
+        "en": "Feel Free To Send Us A Message About Your Business Needs",
+        "ru": "Не стесняйтесь отправить нам сообщение о потребностях вашего бизнеса",
+        "am": "Ուղարկեք մեզ հաղորդագրություն ձեր բիզնես կարիքների մասին"
+    },
+    "appartments": {
+        "en": "Appartments",
+        "ru": "квартиры",
+        "am": "բնակարաններ"
+    },
+    "foodAndlife": {
+        "en": "food & life",
+        "ru": "еда и жизнь ",
+        "am": "սնունդ և կյանք"
+    },
+    "cars": {
+        "en": "cars",
+        "ru": "машины",
+        "am": "ավտոմեքենաներ"
+    },
+    "shopping": {
+        "en": "shopping",
+        "ru": "шопинг",
+        "am": "շոփինգ"
+    },
+    "traveling": {
+        "en": "traveling",
+        "ru": "путешествие",
+        "am": "ճանապարհորդություն"
+    },
+    "send-message": {
+        "en": "Send Message",
+        "ru": "Отправить сообщение",
+        "am": "Ուղարկել հաղորդագրություն"
+    },
+    "helpful-links": {
+        "en": "Helpful Links",
+        "ru": "Полезные ссылки:",
+        "am": "Օգտակար հղումներ"
+    },
+    "categories": {
+        "en": "categories",
+        "ru": "категории",
+        "am": "կատեգորիաներ"
+    },
+    "about-us": {
+        "en": "About us",
+        "ru": "О нас",
+        "am": "Մեր մասին"
+    },
+    "awards": {
+        "en": "awards",
+        "ru": "награды ",
+        "am": "մրցանակներ "
+    },
+    "usefull": {
+        "en": "Useful Sites",
+        "ru": "Полезные сайты",
+        "am": "Օգտակար կայքեր"
+    },
+    "privacy": {
+        "en": "Privacy Policy",
+        "ru": "политика конфиденциальности",
+        "am": "Գաղտնիության քաղաքականություն"
+    },
+    "addres": {
+        "en": "27th Street of New Town, Digital Villa",
+        "ru": "27-я улица Нового города, Цифровая вилла",
+        "am": "Նյու Թաունի 27-րդ փողոց, դիջիթալ վիլլա"
+    },
+    "categoryMainTitle": {
+        "en": "We Have A Wide Range Of <br> Business Categories For You",
+        "ru": "У нас есть широкий выбор бизнес-категорий для вас.",
+        "am": "Մենք ձեզ համար ունենք բիզնեսի կատեգորիաների լայն տեսականի"
+    },
+    "categorySublTitle": {
+        "en": "Categories",
+        "ru": "Категории ",
+        "am": "Կատեգորիաներ"
+    },
+    "appartment-heading": {
+        "en": "One Of The Most Trending Stuffs Right Now!",
+        "ru": "Одна из самых трендовых вещей прямо сейчас!",
+        "am": "Այս պահին ամենաթրենդային ապրանքանին"
+    },
+    "food-heading": {
+        "en": "Food and Lifestyle category is here",
+        "ru": "Категория «Еда и образ жизни» здесь.",
+        "am": "« Սնունդ և ապրելակերպ » կատեգորիան այստեղ"
+    },
+    "shopping-heading": {
+        "en": "The World of Style and Comfort",
+        "ru": "Мир Стиля и Комфорта",
+        "am": "Ոճի և հարմարավետության աշխարհ"
+    },
+    "traveling-heading": {
+        "en": "Information and Safety Tips for Traveling",
+        "ru": "Информация и советы по безопасности в путешествии",
+        "am": "Ճանապարհորդության անվտանգության մասին տեղեկատվություն և խորհուրդներ"
+    },
+    "check-listing":{
+        "en": "Check Our Listings",
+        "ru": "Проверьте наши объявления",
+        "am": "Ստուգեք մեր հայտարարությունները"
+    },
+    "didYouKnow":{
+        "en": "Did you know ?",
+        "ru": "Did you know?",
+        "am": "Դուք գիտեի՞ք։"
+    },
+    "total":{
+        "en": "Total Listings",
+        "ru": "Всего объявлений",
+        "am": "Ընդհանուր հայտարարություններ"
+    },
+    "apartment-GenInfo":{
+        "en": "General Info about Apartments",
+        "ru": "Общая информация о квартирах",
+        "am": "Ընդհանուր տեղեկություններ բնակարանների մասին"
+    },
+    "apartment-info":{
+        "en": "Our apartments offer the perfect blend of comfort and convenience. We provide a variety of housing options, from studios to multi-bedroom apartments. Each apartment comes equipped with everything you need for a pleasant stay: modern furniture, comfortable sleeping arrangements, and a fully equipped kitchen. Choose our apartment for a comfortable living experience in the heart of the city",
+        "ru":"Наши квартиры представляют собой идеальное сочетание комфорта и удобства. Мы предлагаем разнообразные варианты жилья, от студий до многокомнатных апартаментов. В каждой квартире есть все необходимое для приятного пребывания: современная мебель, удобные спальные места и полностью оборудованная кухня. Выберите нашу квартиру для комфортного проживания в центре города.",
+        "am": "Մեր բնակարանները կոմֆորտի և հարմարավետության կատարյալ համադրություն են: Մենք առաջարկում ենք բնակարանների բազմազան տարբերակներ՝ ստուդիաներից մինչև բազմասենյականոց բնակարաններ: Յուրաքանչյուր բնակարան ունի այն ամենը, ինչ անհրաժեշտ է հաճելի հանգստի համար՝ ժամանակակից կահույք, հարմարավետ մահճակալներ և լիովին կահավորված խոհանոց: Ընտրեք մեր բնակարանը քաղաքի կենտրոնում հարմարավետ հանգստի համար։"
+    },
+    "warning":{
+        "en": "* Listing should have all the proper documents before being checked in.",
+        "ru": "* Перед регистрацией у объявления должны быть все необходимые документы.",
+        "am": "* Գրանցվելուց առաջ հայտարարությունը պետք է ունենա բոլոր անհրաժեշտ փաստաթղթերը։"
+    },
+    "warning-2":{
+        "en": "** Listing will be checked by our team members.",
+        "ru": "** Объявление будет проверено членами нашей команды.",
+        "am": "** Հայտարարությունը կստուգվի մեր թիմի անդամների կողմից"
+    },
+    "warning-3":{
+        "en": "*** After being sold, it should immediately be removed from our site and properly monitored.",
+        "ru": "***После продажи его следует немедленно удалить с нашего сайта и тщательно контролировать.",
+        "am": "***Վաճառվելուց հետո այն պետք է անմիջապես հեռացվի մեր կայքից և պատշաճ կերպով վերահսկվի։"
+    },
+    "this-week":{
+        "en": "this week",
+        "ru": "На этой неделе",
+        "am": "այս շաբաթ"
+    },
+    "this-month":{
+        "en": "this month",
+        "ru": "в этом месяце",
+        "am": "այս ամիս"
+    },
+    "this-year":{
+        "en": "this year",
+        "ru": "в этом году",
+        "am": "այս տարի"
+    },
+    "listings":{
+        "en": "Listings &",
+        "ru": "объявлений и",
+        "am": "Հայտարարություն և"
+    },
+    "sales":{
+        "en": "sales",
+        "ru": "продаж",
+        "am": "վաճառք"
+    },
+    "food-genInfo":{
+        "en": "General Info about Food",
+        "ru": "Общая информация о еде",
+        "am": "Սննդի մասին ընդհանուր տեղեկատվություն"
+    },
+    "food-info":{
+        "en": "We offer a diverse menu featuring fresh and high-quality dishes. We also accommodate dietary restrictions and provide vegetarian and gluten-free choices. Come and enjoy unique flavors at our restaurant.",
+        "ru": "Мы предлагаем разнообразное меню, включающее свежие и высококачественные блюда.Мы также учитываем диетические ограничения и предлагаем вегетарианские и безглютеновые опции. Приходите и наслаждайтесь уникальными вкусами в нашем ресторане.",
+        "am": "Մենք առաջարկում ենք բազմազան մենյու՝ թարմ, բարձրորակ սննդամթերքով: Մենք նաև ընդունում ենք սննդակարգի սահմանափակումներ և առաջարկում ենք բուսակերների և գլյուտեն չպարունակող տարբերակներ: Համեցեք և վայելեք մեր ռեստորանում յուրահատուկ համերը։"
+    },
+    "car-genInfo":{
+        "en": "General Info about cars",
+        "ru": "Общая информация о машинах",
+        "am": "Ընդհանուր տեղեկություններ մեքենաների մասին"
+    },
+    "car-info":{
+        "en": "Cars are not just a means of transportation; they are a way of life. We offer a wide range of vehicles, from budget models to luxury cars. Each of our cars provides comfort and reliability in every journey.",
+        "ru": "Автомобили - это не просто средство передвижения, это стиль жизни. Мы предлагаем широкий выбор автомобилей, от бюджетных моделей до роскошных автомобилей. Каждый из наших автомобилей обеспечивает комфорт и надежность в каждой поездке.",
+        "am": "Մեքենաները պարզապես տրանսպորտային միջոց չեն, դրանք ապրելակերպ են։ Մենք առաջարկում ենք մեքենաների լայն ընտրանի՝ բյուջետային մոդելներից մինչև շքեղ մեքենաներ: Մեր մեքենաներից յուրաքանչյուրն ապահովում է հարմարավետություն և հուսալիություն յուրաքանչյուր ճանապարհորդության ժամանակ:"
+    },
+    "shopping-genInfo":{
+        "en": "General Info for Shopping",
+        "ru": "Общая информация о покупках",
+        "am": "Ընդհանուր տեղեկություններ գնումների համար"
+    },
+    "shopping-info":{
+        "en": "Shopping is a delightful experience, and we strive to make it even more enjoyable for you. Our store offers a wide range of products to cater to your diverse needs and preferences. Whether you're searching for fashion, electronics, or household items, you'll find an array of choices here. Our friendly staff is always ready to assist you, ensuring a seamless shopping experience. Come and explore our store today.",
+        "ru": "Покупки - это приятный опыт, и мы стремимся сделать его еще более приятным для вас. Наш магазин предлагает широкий ассортимент товаров, учитывая ваши разнообразные потребности и предпочтения. Независимо от того, ищете ли вы моду, электронику или товары для дома, у нас вы найдете множество вариантов. Наши дружелюбные сотрудники всегда готовы вам помочь, обеспечивая безупречный опыт покупок. Приходите и исследуйте наш магазин уже сегодня.",
+        "am": "Գնումներ կատարելը հաճելի փորձ է, և մենք ձգտում ենք այն դարձնել էլ ավելի հաճելի ձեզ համար: Մեր խանութն առաջարկում է ապրանքների լայն տեսականի՝ ձեր բազմազան կարիքներին և նախասիրություններին համապատասխան: Անկախ նրանից՝ դուք փնտրում եք նորաձևություն, էլեկտրոնիկա կամ տնային ապրանքներ, մենք ձեզ համար բազմաթիվ տարբերակներ ունենք: Մեր բարեհամբույր անձնակազմը միշտ պատրաստ է օգնել ձեզ՝ ապահովելով անթերի գնումներ: Եկեք և ուսումնասիրեք մեր խանութն այսօր:"
+    },
+    "traveling-genInfo":{
+        "en": "General Info. about Traveling",
+        "ru": "Общая информация о путешествиях",
+        "am": "Ընդհանուր տեղեկություն ճանապարհորդության մասին"
+    },
+    "traveling-text":{
+        "en": "Expand your horizons with us. We specialize in creating unforgettable journeys, allowing you to explore the world and create memories. Regardless of your preferences, we have prepared a multitude of opportunities for you",
+        "ru": "Откройте новые горизонты с нами. Мы специализируемся на создании незабываемых путешествий, позволяя вам исследовать мир и создавать воспоминания. Независимо от ваших предпочтений, мы подготовили для вас множество возможностей. ",
+        "am": "Բացեք նոր հորիզոններ մեզ հետ։ Մենք մասնագիտացած ենք անմոռանալի ճամփորդությունների ստեղծման գործում՝ թույլ տալով ձեզ ուսումնասիրել աշխարհը և ստեղծել հիշողություններ: Անկախ ձեր նախընտրությունից, մենք ձեզ համար ունենք բազմաթիվ տարբերակներ:"
+    },
+    "namePlaceHolder":{
+        "en": "Name",
+        "ru": " Имя",
+        "am": " Անուն"
+    },
+    "surnamePlaceHolder":{
+        "en": "Surname",
+        "ru": " Фамилия",
+        "am": "Ազգանուն"
+    },
+    "emailPlaceHolder":{
+        "en": "Your Email",
+        "ru": " Ваш  Email",
+        "am": "Ձեր E-mail-ը"
+    },
+    "messagePlaceHolder":{
+        "en": "Message",
+        "ru": "Сообщение",
+        "am": "Հաղորդագրություն"
+    },
+    "listingSublTitle": {
+        "en": "check out our listings ",
+        "ru": "проверьте наши объявления ",
+        "am": "ստուգեք մեր հայտարարությունները"
+    },
+    "listingMainTitle":{
+        "en": "Item listings of different categories",
+        "ru": "объявления товаров разных категорий",
+        "am": "տարբեր կատեգորիաների ապրանքների հայտարարություններ"
+    },
+    "uploaded-by":{
+        "en": "by:",
+        "ru": "От:",
+        "am": "տեղադրված է:"
+    },
+    "listing-price":{
+        "en": "price:",
+        "ru": "Цена:",
+        "am": "Գինը՝"
+    },
+    "delivery-time":{
+        "en": "Delivery time:",
+        "ru": "Время доставки: :",
+        "am": "Առաքման ժամանակը՝"
+    },
+    "minute":{
+        "en": "minute",
+        "ru": "минут:",
+        "am": "րոպե"
+    },
+    "listing-address":{
+        "en": "address:",
+        "ru": "адрес:",
+        "am": "հասցեն՝"
+    },
+    "apartment-01-listing":{
+        "en": "'Sunshine Paradise' Apartment",
+        "ru": "Квартира 'Солнечный рай'",
+        "am": "«Sunshine Paradise» Բնակարան" 
+    },
+    "apartment-02-listing":{
+        "en": "computer club in Yerevan",
+        "ru": "компьютерный клуб в Ереване:",
+        "am": "համակարգչային ակումբ Երևանում"
+    },
+    "apartment-03-listing":{
+        "en": "Party House with Pool",
+        "ru": "Дом для вечеринок с бассейном",
+        "am": "փարթի հաուս լողավազանով"
+    },
+    "apartment-04-listing":{
+        "en": "Sunshine Villa",
+        "ru": "Вилла Саншайн:",
+        "am": "Սանշայն վիլլա"
+    },
+    "apartment-05-listing":{
+        "en": "Gaming Studio",
+        "ru": "Игровая студия",
+        "am": "Խաղային ստուդիա"
+    },
+    "apartment-06-listing":{
+        "en": "Amazing Dj Party House",
+        "ru": "Удивительный DJ Party House",
+        "am": "Հրաշալի Dj Party House"
+    },
+    "apartment-07-listing":{
+        "en": "Apartment in Center of City",
+        "ru": "Квартира в центре города:",
+        "am": "Բնակարան քաղաքի կենտրոնում"
+    },
+    "apartment-08-listing":{
+        "en": "New Gaming Townhouse",
+        "ru": "Новый игровой таунхаус:",
+        "am": "Նոր խաղային  թաունհաուս"
+    },
+    "apartment-09-listing":{
+        "en": "Amazing Party Villa",
+        "ru": "Потрясающая вилла для вечеринок:",
+        "am": "Հրաշալի Party Villa"
+    },
+    "includedTax":{
+        "en": "month included tax",
+        "ru": "в месяц включая налог",
+        "am": "ամսական ներառյալ հարկը"
+    },
+    "food-01-listing":{
+        "en": "Chicken salad",
+        "ru": "Куриный салат ",
+        "am": "Հավով աղցան"
+    },
+    "food-02-listing":{
+        "en": "steak",
+        "ru": "стейк",
+        "am": "սթեյք"
+    },
+    "food-03-listing":{
+        "en": "Armenian restaurant",
+        "ru": "Армянский ресторан",
+        "am": "Հայկական ռեստորան"
+    },
+    "food-04-listing":{
+        "en": "Sushi rolls",
+        "ru": "Суши роллы",
+        "am": "սուշի ռոլեր"
+    },
+    "food-05-listing":{
+        "en": "Khash",
+        "ru": "Хаш",
+        "am": "Խաշ"
+    },
+    "food-06-listing":{
+        "en": "Chop suey",
+        "ru": "чоп-суэй",
+        "am": "չոփ սուեյ"
+    },
+    "portion":{
+        "en": "Portion Size:",
+        "ru": "Размер порции:",
+        "am": "չափաբաժինը՝"
+    },
+    "grams":{
+        "en": "grams",
+        "ru": "грамм:",
+        "am": "գրամ"
+    },
+    "horsepower":{
+        "en": "horsepower",
+        "ru": "лошадиных сил:",
+        "am": "ձիաուժ"
+    },
+    "engine-type":{
+        "en": "Engine Type:",
+        "ru": "Тип двигателя:",
+        "am": "Շարժիչի տեսակը՝"
+    },
+    "transmission":{
+        "en": "transmission",
+        "ru": "коробка передач:",
+        "am": "փոխանցման տուփ"
+    },
+    "gasoline":{
+        "en": "gasoline",
+        "ru": "бензин:",
+        "am": "բենզին"
+    },
+    "electric":{
+        "en": "electric",
+        "ru": "электрическая",
+        "am": "էլեկտրիկ"
+    },
+    "automatic":{
+        "en": "automatic",
+        "ru": "автоматическая:",
+        "am": "ավտոմատ"
+    },
+    "manual":{
+        "en": "manual",
+        "ru": "механическая:",
+        "am": "մեխանիկական"
+    },
+    "travel-01-listing":{
+        "en": "Amazing Journey to Italy",
+        "ru": "Удивительное путешествие в Италию:",
+        "am": "Հրաշալի ճանապարհորդություն դեպի Իտալիա"
+    },
+    "travel-02-listing":{
+        "en": "Enchanting Adventure in Indonesia",
+        "ru": "Волшебное приключение в Индонезии:",
+        "am": "Կախարդական արկածներ Ինդոնեզիայում"
+    },
+    "travel-03-listing":{
+        "en": "Journey to the World of Ancient Greece",
+        "ru": "Путешествие в мир Древней Греции:",
+        "am": "Ուղևորություն դեպի Հին Հունաստանի աշխարհ"
+    },
+    "travel-04-listing":{
+        "en": "Explore Japan: Land of the Rising Sun",
+        "ru": "Исследуйте Японию: страну восходящего солнца",
+        "am": "Բացահայտեք Ճապոնիան՝ Ծագող Արևի երկիրը"
+    },
+    "travel-05-listing":{
+        "en": "New-Zeland",
+        "ru": "Новая Зеландия",
+        "am": "Նոր Զելանդիա"
+    },
+    "travel-6-listing":{
+        "en": "Maldives",
+        "ru": "Мальдивы:",
+        "am": "Մալդիվներ"
+    },
+    "travel-07-listing":{
+        "en": "Marocco",
+        "ru": "Марокко:",
+        "am": "Մարոկկո"
+    },
+    "per-person":{
+        "en": "per person",
+        "ru": "на человека:",
+        "am": "մեկ անձի համար"
+    },
+    "Group-Size":{
+        "en": " Group Size:",
+        "ru": "Размер группы::",
+        "am": "խմբի չափը"
+    },
+    "Guaranteed":{
+        "en": "Guaranteed",
+        "ru": "Гарантировано",
+        "am": "Երաշխավորված"
+    },
+    "taxesAndfees":{
+        "en": "lng & fees",
+        "ru": "налоги и комиссии",
+        "am": "հարկերը և միջնորդավճարները"
+    },
+    "Includes":{
+        "en": "Includes:",
+        "ru": "Включает:",
+        "am": "Ներառում է:"
+    },
+    "days":{
+        "en": "day",
+        "ru": "дня:",
+        "am": "օր"
+    },
+    "duration":{
+        "en": "duration:",
+        "ru": "длительность:",
+        "am": "տևողությունը:"
+    },
+    "notFound":{
+        "en": "Nothing found:",
+        "ru": "ничего не найдено:",
+        "am": "Ոչինչ չի գտնվել:"
+    }
+}
+
+
+
+
+
+
+
+

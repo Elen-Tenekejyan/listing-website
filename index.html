@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./images/icons/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/owl.css">
+    <title>Listings</title>
+</head>
+
+<body>
+    <header class="header d-flex justify-content-between align-items-center" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav d-flex justify-content-between align-items-center " id="menu">
+                        <a href="./index.html" class="logo" id="logo"><img src="./images/logos/main-logo.png" alt="logo"></a>
+                        <ul class="menuBar d-flex align-items-center">
+                            <li class="test"><a href="#" class="lng-Home menu_link active">Home</a></li>
+                            <li><a href="./category.html" class="lng-Category menu_link">Category</a></li>
+                            <li><a href="./listing.html" class="lng-Listing menu_link">Listing</a></li>
+                            <li><a href="./contact_us.html#contact" class="lng-Contact_Us menu_link">Contact Us</a></li>
+                            <select class="change-lang" id="change-lang">
+                                <option value="en" selected>EN</option>
+                                <option value="ru">RU</option>
+                                <option value="am">AM</option>
+                            </select>
+                        </ul>
+
+                        <div class="headerBurger">
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-text">
+                        <h6 class="lng-subtitle">Over 36,500+ Active Listings</h6>
+                        <h2  class="lng-mainTitle" >Find Nearly Places & Things</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="form" id="search-form">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <fieldset class="optionsRel">
+                                    <input type="text" name="search" id="searchField" data-placeholder="search" autocomplete="off"
+                                        required>
+                                    <ul class="options hidden"></ul>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-10 offset-lg-1">
+                    <ul class="categories">
+                        <li data-index="0">
+                            <div class="categories-icon">
+                                <img src="./images/icons/search-icon-01.png" alt="categories icon">
+                            </div><a href="./listing.html#listings" class="lng-appartments">Appartments</a>
+                        </li>
+                        <li data-index="1">
+                            <div class="categories-icon">
+                                <img src="./images/icons/search-icon-02.png" alt="categories icon">
+                            </div><a href="./listing.html#listings" class="lng-foodAndlife">Food & Life</a>
+                        </li>
+                        <li data-index="2">
+                            <div class="categories-icon">
+                                <img src="./images/icons/search-icon-03.png" alt="categories icon">
+                            </div><a href="./listing.html#listings" class="lng-cars">Cars</a>
+                        </li>
+                        <li id="shopping">
+                            <div class="categories-icon">
+                                <img src="./images/icons/search-icon-04.png" alt="categories icon">
+                            </div><a href="./category.html?data-index=3#info" data-index="3" class="lng-shopping">Shopping</a>
+                        </li>
+                        <li data-index="3">
+                            <div class="categories-icon">
+                                <img src="./images/icons/search-icon-05.png" alt="categories icon">
+                            </div><a href="./listing.html#listings" class="lng-traveling">Traveling</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </main>
+    <section class="popular-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2 class="lng-popular">Popular Categories</h2>
+                        <h6 class="lng-checkOut">Check Them Out</h6>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs" id="listingNaccs">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="category-menu">
+                                        <div class="first-thumb active" data-index="0">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-01.png"
+                                                        alt=""></span>
+                                                <span class="lng-appartments">Apartments</span>
+                                            </div>
+                                        </div>
+                                        <div data-index="1">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-02.png"
+                                                        alt=""></span>
+                                                <span class="lng-foodAndlife">Food &amp; Life</span>
+                                            </div>
+                                        </div>
+                                        <div data-index="2">
+                                            <div class="thumb">
+                                                <span class="icon">
+                                                    <img src="./images/icons/search-icon-03.png" alt="">
+                                                </span>
+                                                <span class="lng-cars">Cars</span>
+                                            </div>
+                                        </div>
+                                        <div data-index="3">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-04.png"
+                                                        alt=""></span>
+                                                <span class="lng-shopping">Shopping</span>
+                                            </div>
+                                        </div>
+                                        <div class="last-thumb" data-index="4">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-05.png"
+                                                        alt=""></span>
+                                                <span class="lng-traveling">Traveling</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 align-self-center">
+                                    <ul class="nacc">
+                                        <li class="active">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 align-self-center">
+                                                            <div class="left-text">
+                                                                <h4 class="lng-appartment-heading">One Of The Most
+                                                                    Trending Stuffs Right Now!</h4>
+                                                                <p class="lng-appartment-text">
+                                                                    Looking for the perfect apartment in the city center? Our apartments are the solution! Cozy and modern, located in the heart of the city, these apartments offer comfort and convenience for your everyday life. Discover the finest in housing options today
+                                                                </p>
+                                                                <div class="main-white-button">
+                                                                    <a href="./category.html?data-index=0#info" data-index="0">
+                                                                        <i class="fa fa-eye"></i><span
+                                                                            class="lng-discover">Discover More</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 align-self-center">
+                                                            <div class="right-image">
+                                                                <img src="./images/appartment.jpg" alt="appartment">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 align-self-center">
+                                                            <div class="left-text">
+                                                                <h4 class="lng-food-heading">Food and Lifestyle category
+                                                                    is here</h4>
+                                                                <p class="lng-food-text">
+                                                                    Welcome to the 'Food and Lifestyle' category. Here, you'll discover helpful tips and engaging articles about culinary delights, healthy living, and much more. Let's explore the world of taste and life together!
+                                                                </p>
+                                                                <div class="main-white-button">
+                                                                    <a href="./category.html?data-index=1#info" data-index="1">
+                                                                        <i class="fa fa-eye"></i><span
+                                                                            class="lng-explore">Explore More</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 align-self-center">
+                                                            <div class="right-image">
+                                                                <img src="./images/food&life.jpg"
+                                                                    alt="Foods on the table">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 align-self-center">
+                                                            <div class="left-text">
+                                                                <h4 class="lng-cars-headeing">Best car rentals for your
+                                                                    trips!</h4>
+                                                                <p class="lng-cars-text">
+                                                                    Looking for the best car rental solution for your next journey? Our car rental service offers you the finest selection of vehicles for unforgettable adventures. Reliable and modern cars are waiting for you today!
+                                                                </p>
+                                                                <div class="main-white-button">
+                                                                    <a href="./category.html?data-index=2#info" data-index="2">
+                                                                        <i class="fa fa-eye"></i> <span
+                                                                            class="lng-more-listing">More Listing</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 align-self-center">
+                                                            <div class="right-image">
+                                                                <img src="./images/cars.jpg" alt="cars in the city">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 align-self-center">
+                                                            <div class="left-text">
+                                                                <h4 class="lng-shopping-heading">The World of Style and Comfort</h4>
+                                                                <p class="lng-shopping-text">
+                                                                    Here you will find a wide range of fashionable clothing, accessories, and home goods
+                                                                </p>
+                                                                <div class="main-white-button">
+                                                                    <a href="./category.html?data-index=3#info" data-index="3">
+                                                                        <i class="fa fa-eye"></i> <span
+                                                                            class="lng-discover">Discover More</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 align-self-center">
+                                                            <div class="right-image">
+                                                                <img src="./images/shopping.jpg" alt="Shopping Girl">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 align-self-center">
+                                                            <div class="left-text">
+                                                                <h4 class="lng-traveling-heading">Information and Safety
+                                                                    Tips for Traveling</h4>
+                                                                <p class="lng-traveling-text">
+                                                                    Traveling is an amazing adventure, but it's essential to prioritize safety.Here you'll find valuable tips and information to make your journey as safe and memorable as possible. Take precautions and savor every moment of your trip!
+                                                                </p>
+                                                                <div class="main-white-button">
+                                                                    <a href="./category.html?data-index=4#info" data-index="4">
+                                                                        <i class="fa fa-eye"></i> <span class="lng-read-more">Read More</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 align-self-center">
+                                                            <div class="right-image">
+                                                                <img src="./images/traveling.jpg" alt="Traveling Beach">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recent-listing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2 class="lng-recent">Recent Listing</h2>
+                        <h6 class="lng-checkOut">Check Them Out</h6>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-listing">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="listing-item" >
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/first-apartment.jpg" alt="apartment"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-first-apartment">1.four room apartment</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(18)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon">
+                                                    <img src="./images/icons/listing-icon-01.png" alt="price">
+                                                </div>
+                                                $450 - $950 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span><em> 256<em class="lng-sq-m">sq
+                                                        m</em></em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 4 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 4 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i> <span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/house-of-gaming.jpg" alt="gaming house"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-gaming-house">2.House of Gaming</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(24)<span class="lng-reviews">Reviews</span></li>
+
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $1,400 - $3,500 / <span class="lng-month"> month with
+                                                    taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span> <em> 339<em class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 4 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 3 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i> <span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/hidden-place.jpg" alt="hidden place"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-secret-house">3. Secret Place Hidden House</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(36)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $1,500 - $3,600 /<span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span> <em> 510<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 4 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 3 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span></a>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/sunshine-apartment.jpg" alt="apartment"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-five-room-appartment">4.five room apartment</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(24)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $3,600 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details: </span><em> 340<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 5 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 3 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item" >
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/best-house.jpg" alt="best house"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-best-villa">5.Best villa in county</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(32)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $5,600 /<span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span> <em> 162<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 6 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 3 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item" >
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/pool-party.jpg" alt="pool villa"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-pool-villa">6.Pool Party Villa</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(40)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $3,850 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span> <em> 340<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 4 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 3 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/sunny-apartment.jpg" alt="sunny apartment"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-sunny-apartment">7. Sunny Apartment</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(24)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $5,450 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details:</span> <em> 152<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 8 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 5 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/house-of-gaming-2.jpg" alt="gaming house"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-gaming-house">8.House of Gaming</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(15)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $5,520 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details: </span><em> 154<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 5 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 4 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="listing-item">
+                                        <div class="left-image">
+                                            <a href="#"><img src="./images/relax-villa.jpg" alt="relax villa"></a>
+                                        </div>
+                                        <div class="right-content align-self-center">
+                                            <a href="#">
+                                                <h4 class="lng-relaxing-villa">9.BBQ Party Villa</h4>
+                                            </a>
+                                            <h6 class="lng-sale-agent">by: Sale Agent</h6>
+                                            <ul class="rate">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li>(20)<span class="lng-reviews">Reviews</span></li>
+                                            </ul>
+                                            <span class="price">
+                                                <div class="icon"><img src="./images/icons/listing-icon-01.png" alt="">
+                                                </div> $4,760 / <span class="lng-month"> month with taxes</span>
+                                            </span>
+                                            <span class="details">
+                                                <span class="lng-details"> Details: </span><em> 267<em
+                                                        class="lng-sq-m">sq m</em> </em>
+                                            </span>
+                                            <ul class="info">
+                                                <li><img src="./images/icons/listing-icon-02.png" alt=""> 6 <span
+                                                        class="lng-bedroom">Bedrooms</span>
+                                                </li>
+                                                <li><img src="./images/icons/listing-icon-03.png" alt=""> 4 <span
+                                                        class="lng-bathroom">Bathrooms</span>
+                                                </li>
+                                            </ul>
+                                            <div class="main-white-button">
+                                                <a href="./contact_us.html#contact">
+                                                    <i class="fa fa-eye"></i><span class="lng-contact-now">Contact
+                                                        Now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about">
+                        <div class="footer-logo">
+                            <a href="./index.html" class="logo"><img src="./images/logos/main-logo.png" alt="logo"></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur Lorem, ipsum dolor. adipisicing elit. Beatae,
+                            voluptates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="helpful-links">
+                        <h4 class="lng-helpful-links">Helpful Links</h4>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a class="lng-categories" href="#">Categories</a></li>
+                                    <li><a class="lng-reviews" href="#">Reviews</a></li>
+                                    <li><a class="lng-Listing" href="#">Listing</a></li>
+                                    <li><a class="lng-Contact_Us" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a class="lng-about-us" href="#">About Us</a></li>
+                                    <li><a class="lng-awards" href="#">Awards</a></li>
+                                    <li><a class="lng-usefull" href="#">Useful Sites</a></li>
+                                    <li><a class="lng-privacy" href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-us">
+                        <h4 class="lng-Contact_Us">Contact Us</h4>
+                        <p class="lng-addres">27th Street of New Town, Digital Villa</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a href="#">010-020-0340</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <a href="#">090-080-0760</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <p>Copyright © 2023 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./javaScript/owl-carousel.js"></script>
+    <script src="./javaScript/carouselInit.js"></script>
+    <script src="./javaScript/languageChange.js"></script>
+    <script src="./javaScript/script.js"></script>
+    <script src="./javaScript/search.js"></script>
+</body>
+
+</html>

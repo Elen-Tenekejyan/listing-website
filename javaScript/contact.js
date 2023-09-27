@@ -1,0 +1,1 @@
+const contactLandSwitcher = new LanguageSwitcher("https://elen-tenekejyan.github.io/practice.testJson/otherPages.json")

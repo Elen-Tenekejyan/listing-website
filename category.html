@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./images/icons/fontawesome-free-6.4.2-web/css/all.min.css">
+    <title>Listings</title>
+</head>
+<body>
+    <header class="header d-flex justify-content-between align-items-center" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav d-flex justify-content-between align-items-center " id="menu">
+                        <a href="./index.html" class="logo" id="logo"><img src="./images/logos/main-logo.png" alt="logo"></a>
+                        <ul class="menuBar d-flex align-items-center">
+                            <li class="test"><a href="./index.html" class="lng-Home menu_link">Home</a></li>
+                            <li><a href="./category.html" class="lng-Category menu_link active">Category</a></li>
+                            <li><a href="./listing.html" class="lng-Listing menu_link">Listing</a></li>
+                            <li><a href="./contact_us.html#contact" class="lng-Contact_Us menu_link">Contact Us</a></li>
+                            <select class="change-lang" id="change-lang">
+                                <option value="en" selected>EN</option>
+                                <option value="ru">RU</option>
+                                <option value="am">AM</option>
+                            </select>
+                        </ul>
+                        <div class="headerBurger">
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page_main-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-text" style="text-align: unset;">
+                        <h6 class="lng-categorySublTitle">CATEGORIES WITH SIMPLE TABS</h6>
+                        <h2 class="lng-categoryMainTitle">We Have A Wide Range Of <br> Business Categories For You
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="category-post"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="category-menu">
+                                        <div class="first-thumb active" data-index="0">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-01.png" alt="">
+                                                    <h4 class="lng-appartments">Apartments</h4>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div data-index="1">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-02.png" alt="">
+                                                    <h4 class="lng-foodAndlife">Food &amp; Life</h4>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div data-index="2">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-03.png" alt="">
+                                                    <h4 class="lng-cars">Cars</h4>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div data-index="3">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-04.png" alt="">
+                                                    <h4 class="lng-shopping">Shopping</h4>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="last-thumb" data-index="4">
+                                            <div class="thumb">
+                                                <span class="icon"><img src="./images/icons/search-icon-05.png" alt="">
+                                                    <h4 class="lng-traveling">Traveling</h4>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <ul class="nacc" id="info">
+                                        <li class="active" data-index="0">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-12" >
+                                                            <div class="top-content">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="top-icon">
+                                                                            <span class="icon"><img src="./images/icons/search-icon-01.png" alt="">
+                                                                                <h4 class="lng-appartments">Apartments</h4>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="main-white-button">
+                                                                            <a href="./listing.html#listings"><i class="fa fa-plus"></i> <span class="lng-check-listing">Check Our Listings</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="categorie-videoBlock">
+                                                                    <video width="100%" autoplay loop muted>
+                                                                        <source src="./videos/apartment-video.mp4" type="video/mp4">
+                                                                    </video>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="description">
+                                                                <div class="row">
+                                                                    <div class="col-lg-9">
+                                                                        <h4 class="lng-appartment-heading" id="apartment">Description for
+                                                                            Apartments</h4>
+                                                                        <p class="lng-appartment-text">
+                                                                            Looking for the perfect apartment in the city
+                                                                            center? Our apartments are the solution! Cozy
+                                                                            and modern, located in the heart of the city,
+                                                                            these apartments offer comfort and convenience
+                                                                            for your everyday life. Discover the finest in
+                                                                            housing options today
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="text-icon">
+                                                                            <h4><img src="./images/icons/listing-icon-heading.png" alt=""> <span class="lng-total"> Total Listings</span></h4>
+                                                                        </div>
+                                                                        <span class="list-item"> <span class="lng-this-week">This Week:</span> 200
+                                                                            <span class="lng-listings">Listings & </span>
+                                                                             150 <span class="lng-sales">Sales</span>
+                                                                            <br> <span class="lng-this-month">This
+                                                                                Month:</span> 1,800
+                                                                            <span class="lng-listings">Listings &</span> 
+                                                                            1,560 <span class="lng-sales">Sales</span> <br>
+                                                                            <span class="lng-this-year">This Year:</span>
+                                                                            16,000 <span class="lng-listings">Listings &</span> 
+                                                                            14,000 <span class="lng-sales">Sales</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="general-info">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="lng-apartment-GenInfo">General Info about Apartments</h4>
+                                                                        <p class="lng-apartment-info">
+                                                                            Our apartments offer the perfect blend of comfort and convenience. We provide a variety of housing
+                                                                            options, from studios to multi-bedroom apartments. Each apartment comes equipped with everything you
+                                                                            need for a pleasant stay: modern furniture, comfortable sleeping arrangements, and a fully equipped
+                                                                            kitchen. Choose our apartment for a comfortable living experience in the heart of the city
+                                                                        </p>
+                                                                        <span class="list-item"><span class="lng-warning">*Listing should have
+                                                                                all the proper documents before being
+                                                                                checked in.</span> <br><span class="lng-warning-2">** Listing will be checked by our team
+                                                                                members.
+                                                                            </span>
+                                                                            <br><span class="lng-warning-3">*** After being sold, it should
+                                                                                imediately be removed from our site and
+                                                                                properly monitored.</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="companies">
+                                                            <div class="col-lg-1"></div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.simon.com/">
+                                                                    <img src="./images/logos/apartment-logo-1.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.prologis.com/"> <img src="./images/logos/apartment-logo-2.png" alt="company logo"></a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.cushmanwakefield.com/en">
+                                                                    <img src="./images/logos/apartment-logo-3.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.zillow.com/">
+                                                                    <img src="./images/logos/apartment-logo-4.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.coldwellbanker.com/">
+                                                                    <img src="./images/logos/apartment-logo-5.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.kw.com/">
+                                                                    <img src="./images/logos/apartment-logo-6.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.century21.com/">
+                                                                    <img src="./images/logos/apartment-logo-7.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="company col-lg-1">
+                                                                <a href="https://www.remax.com/">
+                                                                    <img src="./images/logos/apartment-logo-8.png" alt="company logo">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-1"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li data-index="1">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="top-content">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="top-icon">
+                                                                            <span class="icon"><img src="./images/icons/search-icon-02.png" alt="">
+                                                                                <h4 class="lng-foodAndlife">Food &amp; Life</h4>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="main-white-button">
+                                                                            <a href="./listing.html#listings"><i class="fa fa-plus"></i><span class="lng-check-listing">Check Our Listings</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="categorie-videoBlock">
+                                                                    <video width="100%" autoplay loop muted>
+                                                                        <source src="./videos/food&life.mp4" type="video/mp4">
+                                                                    </video>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="description">
+                                                                <div class="row">
+                                                                    <div class="col-lg-9">
+                                                                        <h4 class="lng-food-heading">Description for Food
+                                                                            and Life</h4>
+                                                                        <p class="lng-food-text">
+                                                                            Welcome to the 'Food and Lifestyle' category.
+                                                                            Here, you'll discover helpful tips and engaging
+                                                                            articles about culinary delights, healthy
+                                                                            living, and much more. Let's explore the world
+                                                                            of taste and life together!
+                                                                        </p>
+                                                                        <br>
+                                                                        <p><strong class="lng-didYouKnow">Did you
+                                                                                know?</strong>
+                                                                            <br>You can get the best free HTML templates
+                                                                            on Too CSS blog. Visit the blog pages and
+                                                                            explore fresh and latest website templates.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="text-icon">
+                                                                            <h4><img src="./images/icons/listing-icon-heading.png" alt=""> <span class="lng-total"> Total Listings</span></h4>
+                                                                        </div>
+                                                                        <span class="list-item"> <span class="lng-this-week">This Week:</span> 124
+                                                                            <span class="lng-listings">Listings &</span>
+                                                                             84 <span class="lng-sales">Sales</span>
+                                                                            <br> <span class="lng-this-month">This
+                                                                                Month:</span> 1,040
+                                                                            <span class="lng-listings">Listings &</span> 
+                                                                            720 <span class="lng-sales">Sales</span> <br>
+                                                                            <span class="lng-this-year">This Year:</span>
+                                                                            10,640 <span class="lng-listings">Listings &</span>
+                                                                            9,600 <span class="lng-sales">Sales</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="general-info">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="lng-food-genInfo"> General Info about food</h4>
+                                                                        <p class="lng-food-info">
+                                                                            We offer a diverse menu featuring fresh and high-quality dishes. Whether you prefer a light snack or an exquisite dinner, we have options for you. We also accommodate dietary restrictions and provide vegetarian and gluten-free choices. Come and enjoy unique flavors at our restaurant."
+                                                                        </p>
+                                                                        <span class="list-item"><span class="lng-warning">*Listing should have
+                                                                                all the proper documents before being
+                                                                                checked in.</span> <br><span class="lng-warning-2">** Listing will be checked by our team
+                                                                                members.
+                                                                            </span>
+                                                                            <br><span class="lng-warning-3">*** After being sold, it should
+                                                                                imediately be removed from our site and
+                                                                                properly monitored.</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="companies">
+                                                                <div class="col-lg-1"></div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.mcdonalds.com/us/en-us.html">
+                                                                        <img src="./images/logos/McDonald's.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.starbucks.com/"> <img src="./images/logos/StarBucks.png" alt="company logo"></a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.bk.com/">
+                                                                        <img src="./images/logos/burgerKing.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://global.kfc.com/">
+                                                                        <img src="./images/logos/kfc.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://pizza-hut.am/#/groups?sellingType=isActiveDelivery">
+                                                                        <img src="./images/logos/PizzaHut.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://us.coca-cola.com/">
+                                                                        <img src="./images/logos/CocaCola.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.lavazza.com/en">
+                                                                        <img src="./images/logos/Lavazza.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.pepsi.com/">
+                                                                        <img src="./images/logos/pepsi.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-lg-1"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                
+                                            </div>
+                                        </li>
+                                        <li data-index="2">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="top-content">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="top-icon">
+                                                                            <span class="icon"><img src="./images/icons/search-icon-03.png" alt="">
+                                                                                <h4 class="lng-cars">Cars</h4>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="main-white-button">
+                                                                            <a href="./listing.html#listings"><i class="fa fa-plus"></i> <span class="lng-check-listing">Check Our Listings</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="categorie-videoBlock">
+                                                                <video width="100%" autoplay loop muted>
+                                                                    <source src="./videos/cars-video.mp4" type="video/mp4">
+                                                                </video>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="description">
+                                                                <div class="row">
+                                                                    <div class="col-lg-9">
+                                                                        <h4 class="lng-cars-headeing">Description about cars</h4>
+                                                                        <p class="lng-cars-text">Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor ak
+                                                                            incididunt ut labore et dolore magna aliqua.
+                                                                            Quis ipsum suspendisse ultrices gravidat
+                                                                            doerski. Sed ut perspiciatis unde omnis iste
+                                                                            natus error sit voluptatem accusantium
+                                                                            doloremque laudantium, totam rem aperiam,
+                                                                            eaque ipsa quae ab illo.</p>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="text-icon">
+                                                                            <h4><img src="./images/icons/listing-icon-heading.png" alt=""> <span class="lng-total"> Total Listings</span></h4>
+                                                                        </div>
+                                                                        <span class="list-item"> <span class="lng-this-week">This Week:</span> 800
+                                                                            <span class="lng-listings">Listings & </span>
+                                                                             400 <span class="lng-sales">Sales</span>
+                                                                            <br> <span class="lng-this-month">This
+                                                                                Month:</span> 1,600
+                                                                            <span class="lng-listings">Listings &</span> 
+                                                                            1,200 <span class="lng-sales">Sales</span> <br>
+                                                                            <span class="lng-this-year">This Year:</span>
+                                                                            14,000 <span class="lng-listings">Listings &</span> 
+                                                                            12,000 <span class="lng-sales">Sales</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="general-info">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="lng-car-genInfo">General Info about cars</h4>
+                                                                        <p class="lng-car-info">Cars are not just a means of transportation; they are a way of life. We offer a wide range of vehicles, from budget models to luxury cars. Each of our cars provides comfort and reliability in every journey.</p>
+                                                                        <span class="list-item"><span class="lng-warning">*Listing should have
+                                                                                all the proper documents before being
+                                                                                checked in.</span> <br><span class="lng-warning-2">** Listing will be checked by our team
+                                                                                members.
+                                                                            </span>
+                                                                            <br><span class="lng-warning-3">*** After being sold, it should
+                                                                                imediately be removed from our site and
+                                                                                properly monitored.</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="companies">
+                                                                <div class="col-lg-1"></div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.bmw.com/en/index.html">
+                                                                        <img src="./images/logos/Bmw.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.audi.com/en.html"> <img src="./images/logos/Audi.png" alt="company logo"></a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.nissan-global.com/EN/">
+                                                                        <img src="./images/logos/Nissan.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.mercedes-benz.com/en/">
+                                                                        <img src="./images/logos/Mercedes-Benz.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.ford.com/">
+                                                                        <img src="./images/logos/Ford.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://global.honda/en/">
+                                                                        <img src="./images/logos/Honda.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.toyota.com/">
+                                                                        <img src="./images/logos/Toyota.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.tesla.com/">
+                                                                        <img src="./images/logos/Tesla.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-lg-1"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li data-index="3">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="top-content">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="top-icon">
+                                                                            <span class="icon"><img src="./images/icons/search-icon-01.png" alt="">
+                                                                                <h4 class="lng-shopping">Shopping</h4>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="main-white-button">
+                                                                            <a href="./listing.html#listings"><i class="fa fa-plus"></i> <span class="lng-check-listing">Check Our Listings</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="categorie-videoBlock">
+                                                                <video width="100%" autoplay loop muted>
+                                                                    <source src="./videos/shopping-video.mp4" type="video/mp4">
+                                                                </video>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="description">
+                                                                <div class="row">
+                                                                    <div class="col-lg-9">
+                                                                        <h4 class="lng-shopping-heading">Description about Shopping</h4>
+                                                                        <p class="lng-shopping-text">Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor ak
+                                                                            incididunt ut labore et dolore magna aliqua.
+                                                                            Quis ipsum suspendisse ultrices gravidat
+                                                                            doerski. Sed ut perspiciatis unde omnis iste
+                                                                            natus error sit voluptatem accusantium
+                                                                            doloremque laudantium, totam rem aperiam,
+                                                                            eaque ipsa quae ab illo.</p>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="text-icon">
+                                                                            <h4><img src="./images/icons/listing-icon-heading.png" alt=""> <span class="lng-total"> Total Listings</span></h4>
+                                                                        </div>
+                                                                        <span class="list-item"> <span class="lng-this-week">This Week:</span> 150
+                                                                            <span class="lng-listings">Listings &</span>
+                                                                             140 <span class="lng-sales">Sales</span>
+                                                                            <br> <span class="lng-this-month">This
+                                                                                Month:</span> 1,500
+                                                                            <span class="lng-listings">Listings &</span> 
+                                                                            1,100 <span class="lng-sales">Sales</span> <br>
+                                                                            <span class="lng-this-year">This Year:</span>
+                                                                            15,000 <span class="lng-listings">Listings &</span> 
+                                                                            14,000 <span class="lng-sales">Sales</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="general-info">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="lng-shopping-genInfo">General Info  for Shopping</h4>
+                                                                        <p class="lng-shopping-info">Shopping is a delightful experience, and we strive to make it even more enjoyable for you. Our store offers a wide range of products to cater to your diverse needs and preferences. Whether you're searching for fashion, electronics, or household items, you'll find an array of choices here. Our friendly staff is always ready to assist you, ensuring a seamless shopping experience. Come and explore our store today.</p>
+                                                                        <span class="list-item"><span class="lng-warning">*Listing should have
+                                                                                all the proper documents before being
+                                                                                checked in.</span> <br><span class="lng-warning-2">** Listing will be checked by our team
+                                                                                members.
+                                                                            </span>
+                                                                            <br><span class="lng-warning-3">*** After being sold, it should
+                                                                                imediately be removed from our site and
+                                                                                properly monitored.</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="companies">
+                                                                <div class="col-lg-1"></div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.prada.com/ww/en.html">
+                                                                        <img src="./images/logos/Prada.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.zara.com/"> <img src="./images/logos/Zara.png" alt="company logo"></a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.chanel.com/us/">
+                                                                        <img src="./images/logos/Chanel.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.gucci.com/">
+                                                                        <img src="./images/logos/Gucci.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.adidas.com/us">
+                                                                        <img src="./images/logos/adidas.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.dolcegabbana.com/ru/">
+                                                                        <img src="./images/logos/dolceGabbana.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://www.nike.com/">
+                                                                        <img src="./images/logos/Nike.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="company col-lg-1">
+                                                                    <a href="https://eu.louisvuitton.com/eng-e1/homepage">
+                                                                        <img src="./images/logos/LouisVuitton.png" alt="company logo">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-lg-1"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li data-index="4">
+                                            <div>
+                                                <div class="thumb">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="top-content">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="top-icon">
+                                                                            <span class="icon"><img src="./images/icons/search-icon-05.png" alt="">
+                                                                                <h4 class="lng-traveling">Traveling</h4>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="main-white-button">
+                                                                            <a href="./listing.html#listings"><i class="fa fa-plus"></i><span class="lng-check-listing">Check Our Listings</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="categorie-videoBlock">
+                                                                <video width="100%" autoplay loop muted>
+                                                                    <source src="./videos/traveling-video.mp4" type="video/mp4">
+                                                                </video>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="description">
+                                                                <div class="row">
+                                                                    <div class="col-lg-9">
+                                                                        <h4 class="lng-traveling-heading">Description of Traveling</h4>
+                                                                        <p class="lng-traveling-text">Lorem ipsum dolor sit amet, consectetur
+                                                                            adipiscing elit, sed do eiusmod tempor ak
+                                                                            incididunt ut labore et dolore magna aliqua.
+                                                                            Quis ipsum suspendisse ultrices gravidat
+                                                                            doerski. Sed ut perspiciatis unde omnis iste
+                                                                            natus error sit voluptatem accusantium
+                                                                            doloremque laudantium, totam rem aperiam,
+                                                                            eaque ipsa quae ab illo.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="text-icon">
+                                                                            <h4><img src="./images/icons/listing-icon-heading.png" alt=""> <span
+                                                                                    class="lng-total"> Total
+                                                                                    Listings</span></h4>
+                                                                        </div>
+                                                                        <span class="list-item"> <span class="lng-this-week">This Week:</span> 200
+                                                                            <span class="lng-listings">Listings &</span>
+                                                                             120 <span class="lng-sales">Sales</span>
+                                                                            <br> <span class="lng-this-month">This
+                                                                                Month:</span> 1,400
+                                                                            <span class="lng-listings">Listings &</span>;
+                                                                            900 <span class="lng-sales">Sales</span> <br>
+                                                                            <span class="lng-this-year">This Year:</span>
+                                                                            14,000 <span class="lng-listings">Listings &</span>
+                                                                            12,000 <span class="lng-sales">Sales</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="general-info">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="lng-traveling-genInfo">General Info. about Traveling</h4>
+                                                                        <p class="lng-traveling-text">Expand your horizons with us. We specialize in creating unforgettable journeys, allowing you to explore the world and create memories. Regardless of your preferences, we have prepared a multitude of opportunities for you</p>
+                                                                        <span class="list-item"><span class="lng-warning">*Listing should have
+                                                                                all the proper documents before being
+                                                                                checked in.</span> <br><span class="lng-warning-2">** Listing will be checked by our team
+                                                                                members.
+                                                                            </span>
+                                                                            <br><span class="lng-warning-3">*** After being sold, it should
+                                                                                imediately be removed from our site and
+                                                                                properly monitored.</span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about">
+                        <div class="footer-logo">
+                            <a href="./index.html" class="logo"><img src="./images/logos/main-logo.png" alt="logo"></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur Lorem, ipsum dolor. adipisicing elit. Beatae,
+                            voluptates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="helpful-links">
+                        <h4 class="lng-helpful-links">Helpful Links</h4>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a class="lng-categories" href="#">Categories</a></li>
+                                    <li><a class="lng-reviews" href="#">Reviews</a></li>
+                                    <li><a class="lng-Listing" href="#">Listing</a></li>
+                                    <li><a class="lng-Contact_Us" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a class="lng-about-us" href="#">About Us</a></li>
+                                    <li><a class="lng-awards" href="#">Awards</a></li>
+                                    <li><a class="lng-usefull" href="#">Useful Sites</a></li>
+                                    <li><a class="lng-privacy" href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-us">
+                        <h4 class="lng-Contact_Us">Contact Us</h4>
+                        <p class="lng-addres">27th Street of New Town, Digital Villa</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a href="#">010-020-0340</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <a href="#">090-080-0760</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <p>Copyright © 2023 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./javaScript/languageChange.js"></script>
+    <script src="./javaScript/contact.js"></script>
+    <script src="./javaScript/script.js"></script>
+</body>

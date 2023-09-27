@@ -1,0 +1,283 @@
+{
+    "title": {
+        "en": "Listings",
+        "ru": "Объявления",
+        "am": "Հայտարարությունները"
+    },
+    "Home": {
+        "en": "home",
+        "ru": "главная",
+        "am": "գլխավոր"
+    },
+    "Category": {
+        "en": "category",
+        "ru": "категория",
+        "am": "Կատեգորիա"
+    },
+    "Listing": {
+        "en": "listing",
+        "ru": "список",
+        "am": "ցանկ"
+    },
+    "Contact_Us": {
+        "en": "contact Us",
+        "ru": "свяжитесь с нами",
+        "am": "կապվեք մեզ հետ"
+    },
+    "subtitle": {
+        "en": "over 36,500+ Active Listings",
+        "ru": "более 36,500+ активных объявлений",
+        "am": "36,500+ ավելի ակտիվ հայտարարություններ "
+    },
+    "mainTitle": {
+        "en": "find Nearby Places & Things",
+        "ru": "найти ближайшие места и продукты",
+        "am": "գտեք մուտքագրեք վայրերը և ապրանքները"
+    },
+    "moderCity": {
+        "en": "modern city",
+        "ru": "современный город",
+        "am": "ժամանակակից քաղաք"
+    },
+    "placeholder": {
+        "en": "search",
+        "ru": "поиск",
+        "am": "որոնում"
+    },
+    "more": {
+        "en": "$1000 or more",
+        "ru": "$1000 и более ",
+        "am": "$1000 և ավելին"
+    },
+    "searchNow": {
+        "en": "Search Now",
+        "ru": "Найти сейчас",
+        "am": "որոնել հիմա"
+    },
+    "appartments": {
+        "en": "Appartments",
+        "ru": "квартиры",
+        "am": "բնակարաններ"
+    },
+    "foodAndlife": {
+        "en": "food & life",
+        "ru": "еда и жизнь ",
+        "am": "սնունդ և կյանք"
+    },
+    "cars": {
+        "en": "cars",
+        "ru": "машины",
+        "am": "ավտոմեքենաներ"
+    },
+    "shopping": {
+        "en": "shopping",
+        "ru": "шопинг",
+        "am": "շոփինգ"
+    },
+    "traveling": {
+        "en": "traveling",
+        "ru": "путешествие",
+        "am": "ճանապարհորդություն"
+    },
+    "popular": {
+        "en": "Popular categories",
+        "ru": "Популярные категории",
+        "am": "տարածված կատեգորիաներ"
+    },
+    "checkOut": {
+        "en": "Check Them Out",
+        "ru": "Посмотрите на них",
+        "am": "Ստուգեք դրանք"
+    },
+    "appartment-heading": {
+        "en": "One Of The Most Trending Stuffs Right Now!",
+        "ru": "Одна из самых трендовых вещей прямо сейчас!",
+        "am": "Այս պահին ամենաթրենդային ապրանքանին"
+    },
+    "discover": {
+        "en": "Discover more",
+        "ru": "Узнать больше",
+        "am": "Իմանալ ավելին"
+    },
+    "appartment-text": {
+        "en": "Looking for the perfect apartment in the city center? Our apartments are the solution! Cozy and modern, located in the heart of the city, these apartments offer comfort and convenience for your everyday life. Discover the finest in housing options today ",
+        "ru": "Ищете идеальное жилье в центре города? Наши квартиры - это ваше решение! Уютные и современные апартаменты, расположенные в самом сердце города, предлагают комфорт и удобство для вашей повседневной жизни. Откройте для себя лучшие возможности жилья уже сегодня!",
+        "am": "Փնտրու՞մ եք կատարյալ բնակարան քաղաքի կենտրոնում: Մեր բնակարանները ձեր լուծումն են: Հարմարավետ և ժամանակակից բնակարաններ, որոնք գտնվում են քաղաքի սրտում, առաջարկում են հարմարավետություն ձեր առօրյայի համար: Բացահայտեք բնակարանների լավագույն տարբերակներն այսօր:"
+    },
+    "food-heading": {
+        "en": "Food and Lifestyle category is here",
+        "ru": "Категория «Еда и образ жизни» здесь.",
+        "am": "« Սնունդ և ապրելակերպ » կատեգորիան այստեղ"
+    },
+    "food-text": {
+        "en": "Welcome to the 'Food and Lifestyle' category. Here, you'll discover helpful tips and engaging articles about culinary delights, healthy living, and much more. Let's explore the world of taste and life together!",
+        "ru": "Добро пожаловать в категорию «Еда и образ жизни». Здесь вы найдете полезные советы и интересные статьи о кулинарии, здоровом образе жизни и многом другом. Давайте вместе исследовать мир вкуса и жизни!",
+        "am": "Բարի գալուստ «Սնունդ և ապրելակերպ» կատեգորիա: Այստեղ դուք կգտնեք օգտակար խորհուրդներ և հետաքրքիր հոդվածներ խոհարարության, առողջ ապրելակերպի և շատ այլ բաների մասին: Եկեք միասին ուսումնասիրենք համի և կյանքի աշխարհը:"
+    },
+    "explore": {
+        "en": "Explore More",
+        "ru": "Изучить больше",
+        "am": "Տե´ս ավելին"
+    },
+    "cars-headeing": {
+        "en": "Best car rentals for your trips!",
+        "ru": "Лучший прокат автомобилей для ваших путешествий!",
+        "am": "մեքենաների լավագույն վարձակալությունը ձեր ճանապարհորդությունների համար"
+    },
+    "cars-text": {
+        "en": "Looking for the best car rental solution for your next journey? Our car rental service offers you the finest selection of vehicles for unforgettable adventures. Reliable and modern cars are waiting for you today!",
+        "ru": "Ищете идеальное решение для вашего следующего путешествия? Наш сервис проката автомобилей предлагает вам лучший выбор транспорта для незабываемых приключений. Надежные и современные автомобили ждут вас уже сегодня! ",
+        "am": "Փնտրու՞մ եք կատարյալ լուծում ձեր հաջորդ ճանապարհորդության համար: Ավտոմեքենաների վարձակալության մեր ծառայությունն առաջարկում է ձեզ տրանսպորտի լավագույն ընտրությունը անմոռանալի ճանապարհորդութհան համար: Վստահելի և ժամանակակից մեքենաներն այսօր սպասում են ձեզ:"
+    },
+    "more-listing": {
+        "en": "More listing",
+        "ru": "Больше объявлений",
+        "am": "Լրացուցիչ ցուցակ"
+    },
+    "shopping-heading": {
+        "en": "The World of Style and Comfort",
+        "ru": "Мир Стиля и Комфорта",
+        "am": "Ոճի և հարմարավետության աշխարհ"
+    },
+    "shopping-text": {
+        "en": "Here you will find a wide range of fashionable clothing, accessories, and home goods",
+        "ru": "Здесь вы найдете широкий ассортимент модной одежды, аксессуаров и товаров для дома",
+        "am": "Այստեղ կգտնեք նորաձև հագուստի, աքսեսուարների և տնային ապրանքների լայն տեսականի։"
+    },
+    "traveling-heading": {
+        "en": "Information and Safety Tips for Traveling",
+        "ru": "Информация и советы по безопасности в путешествии",
+        "am": "Ճանապարհորդության անվտանգության մասին տեղեկատվություն և խորհուրդներ"
+    },
+    "traveling-text": {
+        "en": "Traveling is an amazing adventure, but it's essential to prioritize safety.Here you'll find valuable tips and information to make your journey as safe and memorable as possible. Take precautions and savor every moment of your trip!",
+        "ru": "Путешествие – это удивительное приключение, но важно помнить о безопасности. Здесь вы найдете полезные советы и информацию, чтобы сделать ваше путешествие максимально безопасным и незабываемым. Соблюдайте меры предосторожности и наслаждайтесь каждым моментом вашей поездки!",
+        "am": "Ճանապարհորդելը զարմանալի արկած է, բայց կարևոր է հիշել, որ պետք է ապահով լինել: Այստեղ դուք կգտնեք օգտակար խորհուրդներ և տեղեկություններ՝ ձեր ճանապարհորդությունը հնարավորինս անվտանգ և անմոռանալի դարձնելու համար: Նախազգուշական միջոցներ ձեռնարկեք և վայելեք ձեր ճանապարհորդության յուրաքանչյուր պահը:"
+    },
+    "read-more": {
+        "en": "Read More",
+        "ru": "Читать далее",
+        "am": "Կարդալ ավելին"
+    },
+    "recent": {
+        "en": "Recent Listing",
+        "ru": "Недавнее объявление",
+        "am": "Վերջին հայտարարությունները"
+    },
+    "first-apartment": {
+        "en": "1.Four-room apartment",
+        "ru": "1. Четырехкомнатная квартира",
+        "am": "1.Չորս սենյականոց բնակարան"
+    },
+    "gaming-house": {
+        "en": "2.House of Gaming",
+        "ru": "2.компютерный клуб",
+        "am": "2.համակարգչային ակումբ"
+    },
+    "secret-house": {
+        "en": "3.Secret Place Hidden House",
+        "ru": "3.Тайное место, скрытый дом",
+        "am": "3.Գաղտնի վայր, Թաքնված տուն"
+    },
+    "five-room-appartment": {
+        "en": "4.five room apartment",
+        "ru": "4.пятикомнатная квартира",
+        "am": "4.հինգ սենյականոց բնակարան"
+    },
+    "best-villa": {
+        "en": "5.Best villa in country",
+        "ru": "5.Лучшая вилла в стране",
+        "am": "5. Երկրի լավագույն վիլլան"
+    },
+    "pool-villa": {
+        "en": "6. Amazing Pool Party Villa",
+        "ru": "6. Вилла для вечеринок у бассейна",
+        "am": "6. Հրաշալի լողավազանով երեկույթի վիլլա"
+    },
+    "sunny-apartment": {
+        "en": "7. Sunny Apartment",
+        "ru": "7. Солнечная квартира",
+        "am": "7. Արևկող բնակարան"
+    },
+    "relaxing-villa": {
+        "en": "9. BBQ Party Villa",
+        "ru": "9. Вилла для  вечеринки с барбекю.",
+        "am": "9. Վիլլա  խորովածով երեկույթի համար:"
+    },
+    "sale-agent": {
+        "en": "by: Sale Agent",
+        "ru": "от агента по продажам",
+        "am": "տեղադրված է վաճառքի գործակալի կողմից"
+    },
+    "reviews": {
+        "en": "Reviews",
+        "ru": "Отзывы",
+        "am": "Կարծիքներ"
+    },
+    "month": {
+        "en": " month with taxes",
+        "ru": "В месяц с налогами",
+        "am": "ամսական հարկերով»"
+    },
+    "details": {
+        "en": "Details:",
+        "ru": "Подробности:",
+        "am": "Մանրամասներ:"
+    },
+    "sq-m": {
+        "en": "sq.m",
+        "ru": "кв.м",
+        "am": "ք․մ․"
+    },
+    "bedroom": {
+        "en": "bedrooms",
+        "ru": "спальни",
+        "am": "ննջասենյակներ"
+    },
+    "bathroom": {
+        "en": "bathrooms",
+        "ru": "ванные комнаты",
+        "am": "Սանհանգույցներ"
+    },
+    "contact-now": {
+        "en": "Contact Now",
+        "ru": "Связаться сейчас",
+        "am": "Կապվեք հիմա"
+    },
+    "helpful-links": {
+        "en": "Helpful Links",
+        "ru": "Полезные ссылки:",
+        "am": "Օգտակար հղումներ"
+    },
+    "categories": {
+        "en": "categories",
+        "ru": "категории",
+        "am": "կատեգորիաներ"
+    },
+    "about-us": {
+        "en": "About us",
+        "ru": "О нас",
+        "am": "Մեր մասին"
+    },
+    "awards": {
+        "en": "awards",
+        "ru": "награды ",
+        "am": "մրցանակներ "
+    },
+    "usefull": {
+        "en": "Useful Sites",
+        "ru": "Полезные сайты",
+        "am": "Օգտակար կայքեր"
+    },
+    "privacy": {
+        "en": "Privacy Policy",
+        "ru": "политика конфиденциальности",
+        "am": "Գաղտնիության քաղաքականություն"
+    },
+    "addres": {
+        "en": "27th Street of New Town, Digital Villa",
+        "ru": "27-я улица Нового города, Цифровая вилла",
+        "am": "Նյու Թաունի 27-րդ փողոց, դիջիթալ վիլլա"
+    }
+    
+}
